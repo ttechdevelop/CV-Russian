@@ -8,7 +8,7 @@ body {
 }
 
 .resume-container {
-    max-width: 900px;
+    max-width: 1100px; 
     margin: 30px auto;
     background: #fff;
     padding: 40px;
@@ -30,16 +30,16 @@ header h1 {
     color: #2c3e50;
 }
 
-/* --- ИЗМЕНЕНИЯ ЗДЕСЬ --- */
+
 header h2 {
     margin: 5px 0 15px;
     font-size: 1.4em;
-    font-weight: 300;
+    font-weight: 500; 
     letter-spacing: 2px;
-    color: #DAA520; /* цвет */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25); /* тень */
+    color: #DAA520; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); 
 }
-/* ------------------------ */
+
 
 .contact-info {
     font-size: 0.9em;
@@ -52,27 +52,34 @@ header h2 {
 
 
 .main-content {
-
+    display: flex;
+    gap: 40px; 
 }
+
+.left-column {
+    flex: 1; 
+}
+
+.right-column {
+    flex: 2; 
+}
+/* ------------------------------ */
 
 section {
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
-
-section h3 {
-    font-size: 1.5em;
+h3 {
+    font-size: 1.3em;
     color: #34495e;
-    border-bottom: 2px solid #333; /* Черная линия */
+    border-bottom: 2px solid #000; 
     padding-bottom: 5px;
     margin-top: 0;
     margin-bottom: 20px;
+    text-transform: uppercase; 
 }
-/* ------------------------ */
+/* ---------------------------------- */
 
-section p {
-    margin-bottom: 15px;
-}
 
 ul {
     padding-left: 20px;
@@ -92,7 +99,7 @@ li {
     margin-bottom: 25px;
 }
 
-.job h4, .education h4, .course h4 {
+h4 {
     margin: 0 0 5px 0;
     font-size: 1.1em;
     color: #2c3e50;
@@ -102,10 +109,15 @@ li {
     font-style: italic;
     color: #7f8c8d;
     margin-bottom: 10px;
+    font-size: 0.9em;
 }
 
 /* Адаптивность для мобильных устройств */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+    .main-content {
+        flex-direction: column; 
+    }
+
     .resume-container {
         padding: 20px;
         margin: 15px;
