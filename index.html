@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме - DevOps Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="resume-container">
+        <header>
+            <!-- ЗАМЕНИТЕ НА ВАШИ ДАННЫЕ -->
+            <h1>Имя Фамилия</h1>
+            <h2>DEVOPS ENGINEER</h2>
+            <div class="contact-info">
+                <span>Город, Страна</span> |
+                <span>+номер телефона</span> |
+                <span>почта@gmail.com</span> |
+                <span>@Telegram</span> |
+                <span>https://github.com/YourGitHub</span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="left-column">
+                <section>
+                    <h3>О СЕБЕ</h3>
+                    <p>
+                        DevOps-инженер с опытом более 3 лет в системном администрировании и автоматизации инфраструктуры. Обладаю практическими навыками в построении CI/CD-пайплайнов, оркестрации контейнеров с помощью Kubernetes и управлении конфигурациями через IaC-инструменты. Опыт в full-stack разработке позволяет мне глубоко понимать жизненный цикл ПО и эффективно выстраивать взаимодействие между командами разработки и эксплуатации.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>КЛЮЧЕВЫЕ КОМПЕТЕНЦИИ</h3>
+                    <ul>
+                        <li><b>Контейнеризация и оркестрация:</b> Docker, Docker Compose, Kubernetes (Kubeadm, Kubespray, Managed K8s), Helm, Kustomize.</li>
+                        <li><b>CI/CD:</b> GitLab CI, ArgoCD.</li>
+                        <li><b>Системы контроля версий:</b> GitHub, Gitea, GitLab.</li>
+                        <li><b>Docker регистр и хранилища артефактов:</b> DockerHub, Harbor, Gitlab, Artifactory.</li>
+                        <li><b>IaC и автоматизация:</b> Ansible, Terraform, Bash.</li>
+                        <li><b>Облачные провайдеры и виртуализация:</b> Yandex Cloud, Proxmox, VMWare ESXi.</li>
+                        <li><b>Мониторинг и логирование:</b> Prometheus, Grafana, Alertmanager, ELK/EFK Stack (Elasticsearch, Logstash/Fluentd, Kibana), PLG (Promtail, Loki, Grafana).</li>
+                        <li><b>Веб-серверы и прокси:</b> Nginx, Apache, HAProxy, Traefik.</li>
+                        <li><b>Базы данных:</b>
+                            <ul>
+                                <li><b>SQL:</b> PostgreSQL, MySQL, Percona Server, PXC.</li>
+                                <li><b>NoSQL:</b> ClickHouse, MongoDB, Cassandra.</li>
+                            </ul>
+                        </li>
+                        <li><b>Миграции БД:</b> Alembic, Flyway, Liquibase.</li>
+                        <li><b>Кэширование и брокеры сообщений:</b> Redis, Memcached, Kafka.</li>
+                        <li><b>Сетевые технологии:</b> TCP/IP, DNS, VPN, Firewall (iptables/ufw), CNI (Calico), Service Mesh (Istio, Linkerd).</li>
+                        <li><b>ОС и системное администрирование:</b> Linux (Debian, Ubuntu), Windows Server (AD, GPO, DNS, DHCP).</li>
+                        <li><b>Системы хранения:</b> S3 (Minio, Ceph), NAS (Samba, NFS), SAN (iSCSI).</li>
+                        <li><b>Языки программирования:</b> Python (Flask, FastAPI), Java (Spring Boot), JavaScript (Vue.js), Bash.</li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="right-column">
+                <section>
+                    <h3>ОПЫТ РАБОТЫ</h3>
+                    <div class="job">
+                        <h4>DevOps Engineer | GoodCity, г. Донецк</h4>
+                        <p class="job-period">Апрель 2024 — Настоящее время | 1.5 года</p>
+                        <ul>
+                            <li>Администрирование и поддержка инфраструктуры на базе Linux (Ubuntu/Debian) для dev, stage и prod окружений.</li>
+                            <li>Развертывание и управление кластерами Kubernetes (on-premise через Kubeadm/Kubespray и managed в Yandex Cloud).</li>
+                            <li>Автоматизация деплоя приложений с использованием Helm, Kustomize и CI/CD-пайплайнов в GitLab (push-модель и pull-модель с ArgoCD).</li>
+                            <li>Настройка и поддержка веб-серверов, балансировщиков нагрузки и reverse-proxy (Nginx, Traefik, HAProxy).</li>
+                            <li>Внедрение и поддержка стека мониторинга (Prometheus, Grafana) и централизованного сбора логов (EFK).</li>
+                            <li>Управление конфигурациями и автоматизация рутинных задач с помощью Ansible и Terraform.</li>
+                            <li>Работа с системами хранения данных: объектных (Minio), файловых (NFS, Samba) и блочных (iSCSI).</li>
+                            <li>Обеспечение безопасности инфраструктуры: настройка firewall, управление TLS-сертификатами (Certbot).</li>
+                        </ul>
+                    </div>
+                    <div class="job">
+                        <h4>Java Back-end Developer | Иннополис, г. Иннополис</h4>
+                        <p class="job-period">Сентябрь 2023 — Июнь 2024 | 10 мес.</p>
+                        <ul>
+                            <li>Разрабатывал backend часть REST-API приложения для паспортно-визовой службы МВД на стеке Java и SpringBoot.</li>
+                            <li>Интегрировал сервис с нейронной сетью (Computer Vision) для распознавания документов.</li>
+                            <li>Работал в команде, используя систему контроля версий Git.</li>
+                        </ul>
+                    </div>
+                    <div class="job">
+                        <h4>Системный администратор Linux/Windows | ВолгГТУ, г. Волгоград</h4>
+                        <p class="job-period">Сентябрь 2022 — Июнь 2024 | 1.5 года</p>
+                        <ul>
+                            <li>Администрировал серверы на базе Linux и Windows (Active Directory, DNS, DHCP, GPO).</li>
+                            <li>Обеспечивал бесперебойную работу сетевой инфраструктуры, настраивал сетевое оборудование, VPN и firewall.</li>
+                            <li>Разрабатывал скрипты на Bash и Python для автоматизации задач резервного копирования, мониторинга и управления системами.</li>
+                            <li>Управлял дисковым пространством с помощью LVM и настраивал системы резервного копирования.</li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <section>
+                    <h3>ОБРАЗОВАНИЕ</h3>
+                    <div class="education">
+                        <h4>ВолгГТУ / ДонНТУ | ИВТ / Программная инженерия, Бакалавриат</h4>
+                        <p>2022 — 2025</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>СЕРТИФИКАТЫ И КУРСЫ</h3>
+                    <div class="course">
+                        <h4>Системы искусственного интеллекта | Иннополис</h4>
+                        <p>Сентябрь 2023 — Май 2024</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>ЯЗЫКИ</h3>
+                    <ul>
+                        <li><b>Русский</b> — Родной</li>
+                        <li><b>Английский</b> — B2 (Intermediate)</li>
+                    </ul>
+                </section>
+
+            </div>
+        </main>
+    </div>
+</body>
+</html>
